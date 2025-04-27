@@ -9,7 +9,7 @@ def remember_remember(path: str) -> str:
 
 
 def main() -> None:
-    path = '../exelentim/exercise-1-python-self-learning-Lotem604/content/week06/resources/code.png'
+    path = '../exelentim/exercise-1-python-self-learning-Lotem604/src/code.png'
     print(remember_remember(path))
 
 

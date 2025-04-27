@@ -1,8 +1,6 @@
-"""add list each by one while between them sep, if no lists it returns None"""
-def cup_of_join(*lists, sep=None):
-    if not lists:
-        return None
 
+def cup_of_join(*lists, sep=None):
+    """add list each by one while between them sep, if no lists it returns None"""
     result = []
     for lst in lists:
         result.extend(lst)
